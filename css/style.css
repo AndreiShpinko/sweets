@@ -161,7 +161,7 @@
     min-height: 240px;
   }
 }
-@media (pointer: none) {
+@media (pointer: coarse) {
   .news__item:focus .item__time {
     background-color: rgba(0, 0, 0, 1);
     transition: 0.3s;
@@ -175,7 +175,7 @@
     transition: 0.3s;
   }
 }
-@media (pointer: coarse) {
+@media (pointer: fine) {
   .news__item:hover .item__time {
     background-color: rgba(0, 0, 0, 1);
     transition: 1s;
